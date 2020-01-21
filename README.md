@@ -1,24 +1,24 @@
-# react-native-usb-printer
+# rn-usb-printer
 
 A React Native Library to support USB printer for Android platform 
 
 ## Installation
 
 ```
-npm install react-native-usb-printer --save
+npm install rn-usb-printer --save
 ```
 
 ## Integrate module
 
-To integrate `react-native-usb-printer` with the rest of your react app just execute:
+To integrate `rn-usb-printer` with the rest of your react app just execute:
 ```
-react-native link react-native-usb-printer
+react-native link rn-usb-printer
 ```
 
 ## Usage
 
 ```javascript
-import { RNUSBPrinter } from 'react-native-usb-printer';
+import { RNUSBPrinter } from 'rn-usb-printer';
 
 RNUSBPrinter.printText('This is test print.')
 RNUSBPrinter.printBillTextWithCut("<C>This is test print.</C>")

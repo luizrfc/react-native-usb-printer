@@ -1,6 +1,6 @@
 {
   "name": "rn-usb-printer",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "a usb thermal printer library for android ",
   "main": "index.js",
   "scripts": {
